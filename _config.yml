@@ -17,8 +17,8 @@ title: Loic's Blog
 email: loic@idealcoder.co.uk
 description: > # this means to ignore newlines until "baseurl:"
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "jekyll-blog" # the subpath of your site, e.g. /blog
+url: "https://idealcoder.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  idealcoder
 
