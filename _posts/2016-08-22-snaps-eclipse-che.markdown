@@ -35,7 +35,7 @@ Note: You can have multiple projects per workspace.
 Next you will want to install the agzaent on your snappy device. This can be anything that is able to run snaps, e.g. Ubuntu 16.04. You need to have go installed, and then install snapcraft and the agent. Root is currently needed to have permission to install snaps
 ```
 $ sudo apt install golang snapcraft
-$ go get install github.com/Idealcoder/che-snap-agent
+$ go get github.com/Idealcoder/che-snap-agent
 ...
 $ sudo che-snap-agent
 ```
