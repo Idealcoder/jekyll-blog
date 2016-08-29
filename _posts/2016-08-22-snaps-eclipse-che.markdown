@@ -19,7 +19,7 @@ The code so far is more of a fragile proof of concept, but it is enough to see t
 # Setup Eclipse Che
 Firstly, to try this out you need to be running Eclipse Che somewhere. The simplest is to sign up to a codenvy account for free at [beta.codenvy.com](https://beta.codenvy.com/site/login) to use their hosted version of Eclipse Che, or you can also host it yourself. Remember it needs to be accessible by your snappy device. 
 
-![codenvy-new-workspace](images/codenvy-new-workspace.png){:class="img-responsive"}
+![codenvy-new-workspace](/jekyll-blog/images/codenvy-new-workspace.png){:class="img-responsive"}
 
 Then you will need to create a workspace for your project. By using a custom recipe all the tools needed are included
 * Open up the Eclipse Che IDE.
@@ -29,10 +29,10 @@ Then you will need to create a workspace for your project. By using a custom rec
 Add a snapcraft project to the workspace, e.g. https://github.com/Idealcoder/snapcraft-hello-world 
 Note: You can have multiple projects per workspace.
 
-![codenvy-add-project](images/codenvy-add-project.png){:class="img-responsive"}
+![codenvy-add-project](/jekyll-blog/images/codenvy-add-project.png){:class="img-responsive"}
 
 # Setup snappy device agent
-Next you will want to install the agent on your snappy device. This can be anything that is able to run snaps, e.g. Ubuntu 16.04. You need to have go installed, and then install snapcraft and the agent. Root is currently needed to have permission to install snaps
+Next you will want to install the agzaent on your snappy device. This can be anything that is able to run snaps, e.g. Ubuntu 16.04. You need to have go installed, and then install snapcraft and the agent. Root is currently needed to have permission to install snaps
 ```
 $ sudo apt install golang snapcraft
 $ go get install github.com/Idealcoder/che-snap-agent
@@ -45,10 +45,10 @@ If it says ``command not found: che-snap-agent`` you might need to configure you
 On first run, it will ask for URL of the Eclipse Che IDE to connect to, e.g. [https://beta.codenvy.com](https://beta.codenvy.com), and credentials if they are needed. If there are multiple snap workspaces it will ask to select one as well. Finally, if you want to be able to push to the ubuntu snap store, you should run ``snapcraft login`` on the device and authenticate (needs a Ubuntu One account).
 
 # Usage
-
+za
 Switch back to the Eclipse Che IDE and refresh the page. The commands to snap&run, snap&push should have been added for each project. If you used the hello-world example as you project, then executing snap&run should look as below, showing ``Hello, world!`` as output line if it all worked.
 
-![eclipse-che-snap-build](images/eclipse-che-snap-build.png){:class="img-responsive"}
+![eclipse-che-snap-build](/jekyll-blog/images/eclipse-che-snap-build.png){:class="img-responsive"}
 
 # Limitations & Conclusion
 

@@ -24,7 +24,7 @@ So it was decided to have an agent running on the snappy device, and to use the 
 
 4-7: Running build on snappy device
 
-![block-diagram](images/block-diagram.png){:class="img-responsive"}
+![block-diagram](/jekyyl-blog/images/block-diagram.png){:class="img-responsive"}
 
 
 
