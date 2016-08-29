@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 twitter_username: 
 github_username:  idealcoder
-baseurl: httsp://idealcoder.github.io/jekyll-blog/
+baseurl: https://idealcoder.github.io/jekyll-blog
 
 
 # Build settings
