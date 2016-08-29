@@ -24,7 +24,7 @@ So it was decided to have an agent running on the snappy device, and to use the 
 
 4-7: Running build on snappy device
 
-![block-diagram](/images/block-diagram.png){:class="img-responsive"}
+![block-diagram](images/block-diagram.png){:class="img-responsive"}
 
 
 
@@ -91,7 +91,6 @@ echo "COMMAND:$1:$2:$port:" > /projects/lastcommand.txt
 #Listen for terminal output
 nc -l -u -p $port
 ```
-za
 # REST API
 
 Authorisation is not always needed, e.g. when running Che  locally on a machine. This is tested by attempting to list workspaces without being logged on, and if a ``401 Unauthorized`` error code is sent then login is needed.
